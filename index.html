@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/animationn.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+	<title>Joevert-Portfolio</title>
+    <link rel = "icon" href ="img/port.png" type = "image/x-icon">
+  <!--LINK HERE-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!--LINK END-->
+
+</head>
+<style>
+      body {
+          background-color: #222943;
+          margin: 0;
+          padding: 0;
+        }
+      .scrollToTopBtn {
+          background-color: #38467a;
+          border: none;
+          border-radius: 50%;
+          color: white;
+          cursor: pointer;
+          font-size: 16px;
+          line-height: 48px;
+          width: 48px;
+          position: fixed;
+          bottom: 30px;
+          right: 30px;
+          z-index: 100;
+          opacity: 0;
+          transform: translateY(100px);
+          transition: all .5s ease
+        }
+      .showBtn {
+          opacity: 1;
+          transform: translateY(0)
+        }
+</style>
+
+<body>
+
+<div class="loader"></div>
+<div class="header finisher-header" style="width: 100%; height: 100%;">
+
+<!--NAVBAR-->
+<section id="header">
+  <div class="header container">
+    <div class="nav-bar">
+      <div class="brand">
+        <a href="#hero">
+        </a>
+      </div>
+      <div class="nav-list">
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+        <ul>
+          <li><a href="#hero" data-after="Home" class="fadeinleft">Home</a></li>
+          <li><a href="#about" data-after="Service" class="fadeinleft">About me</a></li>
+          <li><a href="#services" data-after="Projects" class="fadeinleft">SKILLS</a></li>
+          <li><a href="#contact" data-after="Contact" class="fadeinleft">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!--NAVBAR END-->
+
+<!--HOME-->
+<section id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="header-text">
+          <div class="hero space" style="margin-top: 100px;">
+            <div>
+              <h1>Hello, <span></span></h1>
+              <h1>My Name is <span></span></h1>
+              <h1>Joevert San Juan <span></span></h1>
+                  <!-- Facebook -->
+                  <a class="fab fa-facebook-f fa-2x mt-5 animation fade-in-left" style="color: #3b5998; margin-right: 20px;" href="https://www.facebook.com/joevertbryan.sanjuan/"></a>
+                  <!-- Twitter -->
+                  <a class="fab fa-twitter fa-2x animation fade-in-left" style="color: #55acee; margin-right: 20px;" href="https://twitter.com/joevertbryan"></a>
+                  <!-- Github -->
+                  <a class="fab fa-github fa-2x animation fade-in-left" style="color: #0047AB; margin-right: 20px;" href="https://github.com/joevert17"></a>
+                  <!-- Instagram -->
+                  <a class="fab fa-instagram fa-2x animation fade-in-left" style="color: #833AB4; margin-right: 20px;" href="https://www.instagram.com/joevert_/"></a>           
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="space your-class fadeinleft">
+          <img src="img/port1.png" style="z-index: 1;" class="zoom fadeinleft">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--HOME END-->
+
+
+<!--ABOUT ME-->
+<section id="about">
+  <div class="about container">
+    <div class="col-left">
+      <div class="about-img">
+        <img src="img/port.png">
+      </div>
+    </div>
+    <div class="col-right">
+      <h1 class="section-title animation fade-in-left" style="color: white;">About <span>me</span></h1>
+      <h2 class="animation fade-in-left" style="color: white;">Front End Developer</h2>
+      <p class="animation fade-in-left" style="color: white; font-size: 17px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque
+          repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt
+          exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni!
+          Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt
+          reprehenderit libero enim!</p>
+        <a class="dlbutton" href="pdf/JOEVERT-RESUME.pdf" download>Download CV</a>
+        <a class="dlbutton1 mb-3" href="#contact">Contact Me</a>
+    </div>
+  </div>
+</section>
+<!--ABOUT ME END-->
+
+<!--SKILLS-->
+<section id="services">
+  <div class="services container">
+    <div class="service-top">
+      <p style="color: white; font-size: 13px;" class="fade-in-left">Services i can offer</p>
+      <h1 class="section-title" style="color: white;">Serv<span>i</span>ces</h1>
+    </div>
+    <div class="service-bottom">
+      <div class="service-item">
+        <div class="icon animation fade-in"><img src="img/icons8-html-64.png"/></div>
+          <h2 style="color: #F90253;">HTML</h2>
+          <p class="animation fade-in">HTML stands for HyperText Markup Language. It is the standard markup language used for creating and structuring web
+             pages on the internet.</p> <br>
+            <div class="space-y-4">
+              <div class="w-96 bg-white shadow rounded animation fade-in">
+                  88%
+              </div>
+            </div>
+      </div>
+    <div class="service-item">
+      <div class="icon animation fade-in"><img src="img/icons8-css-100.png"/></div>
+        <h2 style="color: #F90253;">CSS</h2>
+        <p class="animation fade-in">Cascading Style Sheets is a stylesheet language used for describing the presentation and visual
+           appearance of a document written in HTML or XML</p> <br>
+          <div class="space-y-4">
+            <div class="w-96 bg-white shadow rounded animation fade-in">
+                80%
+            </div>
+          </div>
+    </div>
+    <div class="service-item">
+      <div class="icon animation fade-in"><img src="https://img.icons8.com/?size=512&id=Nkym0Ujb8VGI&format=png"/></div>
+        <h2 style="color: #F90253;">JavaScript</h2>
+        <p class="animation fade-in">JavaScript is supported by all major web browsers and has a large ecosystem of libraries and frameworks that extend
+           its functionality. </p> <br>
+          <div class="space-y-4">
+            <div class="w-[200px] bg-white shadow rounded animation fade-in">
+                66%
+            </div>
+          </div>
+    </div>
+    <div class="service-item">
+      <div class="icon animation fade-in"><img src="https://img.icons8.com/?size=512&id=84710&format=png"/></div>
+        <h2 style="color: #F90253;">BOOTSTRAP 5</h2>
+        <p class="animation fade-in">Is a popular open-source front-end framework for building responsive and mobile-first websites and web
+           applications. pre-designed HTML & CSS</p> <br>
+          <div class="space-y-4">
+            <div class="w-96 bg-white shadow rounded animation fade-in">
+                90%
+            </div>
+          </div>
+    </div>
+    <div class="service-item">
+      <div class="icon animation fade-in"><img src="img/tailwind-css.svg"/></div>
+        <h2 style="color: #F90253;">Tailwind CSS</h2>
+        <p class="animation fade-in">Tailwind CSS is a utility-first CSS framework that focuses on providing a highly customizable and efficient way to
+           style web interfaces. Tailwind offers a vast utility classes library.</p> <br>
+          <div class="space-y-4">
+            <div class="w-[220px] bg-white shadow rounded animation fade-in">
+                70%
+            </div>
+          </div>
+    </div>
+    <div class="service-item">
+      <div class="icon animation fade-in"><img src="https://img.icons8.com/?size=512&id=t4YbEbA834uH&format=png"/></div>
+        <h2 style="color: #F90253;">reactJS</h2>
+        <p class="animation fade-in">ReactJS, often referred to as React, is a popular JavaScript library for building user interfaces. It was developed by
+           Facebook and is widely used for creating web</p> <br>
+          <div class="space-y-4">
+            <div class="w-[90px] bg-white shadow rounded animation fade-in">
+                20%
+            </div>
+          </div>
+    </div>
+    <div class="service-item">
+      <div class="icon animation fade-in"><img src="img/ux-design.png"/></div>
+        <h2 style="color: #F90253;">UI/UX Designer</h2>
+        <p class="animation fade-in">Adobe XD</p> <br>
+          <div class="space-y-4 animation fade-in">
+            <div class="w-96 bg-white shadow rounded">
+                80%
+            </div>
+          </div> <br><br>
+          <p class="mt-[17px] animation fade-in">Figma</p> <br>
+          <div class="space-y-4 animation fade-in">
+            <div class="w-[195px] bg-white shadow rounded">
+                65%
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--SKILLS END-->
+
+
+<!--CONTACT-->
+<section id="contact">
+  <center>
+    <h1 class="section-title mb-5" style="color: white; padding-top: 80px;">CONTACT <span>M</span>E</h1>
+      <div class="container1">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details animation fade-in">
+              <i class="fas fa-map-marker-alt" style="color:#5286cc;"></i>
+              <div class="topic" style="color:white;">Address</div>
+              <div class="text-one" style="color:white;">141 brgy. Calumpang</div>
+              <div class="text-two" style="color:white;">Nagcarlan Laguna</div>
+            </div>
+            <div class="phone details animation fade-in">
+              <i class="fas fa-phone-alt" style="color:#5286cc;"></i>
+              <div class="topic" style="color:white;">Phone</div>
+              <div class="text-one" style="color:white;">0951 058 1295</div>
+              <div class="text-two" style="color:white;">+6395-5108-1295</div>
+            </div>
+            <div class="email details animation fade-in">
+              <i class="fas fa-envelope" style="color:#5286cc;"></i>
+              <div class="topic" style="color:white;">Email</div>
+              <div class="text-one" style="color:white;">joevertbryan@gmail.com</div>
+              <div class="text-two" style="color:white;">joevertbryans@yahoo.com</div>
+            </div>
+          </div>
+        <div class="right-side">
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+              <input type="text" placeholder="Enter your message">
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now" >
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </center>
+</section> 
+<!--CONTACT END-->
+
+</div>
+
+<!--FLOAT ICON-->
+<button class="scrollToTopBtn fa fa-arrow-up cursor-n-resize"></button>
+<!--FLOAT ICON END-->
+
+
+<!--FOOTER-->
+<div class="footer-basic mt-[150px]">
+    <footer>
+        <div class="social"> 
+            <a class="fab fa-facebook-f fa-2x mt-5" style="color: #3b5998;" href="https://www.facebook.com/joevertbryan.sanjuan/"></a>
+            <a class="fab fa-twitter fa-2x" style="color: #55acee;" href="https://twitter.com/joevertbryan"></a>
+            <a class="fab fa-github fa-2x" style="color: #0047AB;" href="https://github.com/joevert17"></a>
+            <a class="fab fa-instagram fa-2x" style="color: #833AB4;" href="https://www.instagram.com/joevert_/"></a> 
+        </div>
+      <hr style="height:2px;border-width:0;color:gray;background-color:white">
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#hero">Home</a></li>
+            <li class="list-inline-item"><a href="#about">ABOUT ME</a></li>
+            <li class="list-inline-item"><a href="#services">SKILLS</a></li>
+            <li class="list-inline-item"><a href="#contact">CONTACT</a></li>
+        </ul>
+        <p class="copyright">Joevert San Juan</p>
+    </footer>
+</div>
+<!--FOOTER END-->
+
+<!--SCRIPT HERE-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="finisher-header.es5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/bg.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/loader.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/animationn.js"></script>  
+<!--SCRIPT END-->
+</body>
+</html>

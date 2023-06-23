@@ -1,0 +1,56 @@
+
+.animation {
+    font-family: 'Raleway', sans-serif;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+
+/*All Animations*/
+.zoom-in {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
+.zoom-out {
+    opacity:0;
+    visibility: hidden;
+
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
+.fade-in {
+    opacity:0;
+    visibility: hidden;
+
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.fade-in-right {
+    opacity:0;
+    visibility: hidden;
+    
+    
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
+.fade-in-left {
+    opacity:0;
+    visibility: hidden;
+
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
